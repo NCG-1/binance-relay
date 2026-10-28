@@ -1,0 +1,9 @@
+{
+  "regions": ["fra1"],
+  "rewrites": [
+    {
+      "source": "/fapi/:match*",
+      "destination": "https://fapi.binance.com/fapi/:match*"
+    }
+  ]
+}
